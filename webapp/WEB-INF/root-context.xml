@@ -9,5 +9,6 @@
 
 <!-- <bean id="helloController" class="helloController"></bean> -->
 <context:component-scan base-package="sellcontroller"></context:component-scan>
+<mvc:resources mapping="/resources/**" location="/resources/" />
 <mvc:annotation-driven></mvc:annotation-driven>
 </beans>
